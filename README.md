@@ -16,6 +16,21 @@ Legend AI 展示仓库：仅包含产品文档、架构与线上演示链接，�
 - 投资组合管理与风险评估框架
 - 免费/订阅分层体验
 
+## 分析类型 (Analysis Types)
+### 传统分析 (Traditional Analysis)
+- 基本面分析 (Fundamental Analysis)
+- 技术面分析 (Technical Analysis)
+- 情绪分析 (Sentiment Analysis)
+- 资金流入流出分析 (Capital In/Outflow)
+
+### AI Agent 分析 (AI‑Agent Analysis)
+- 由多位投资大佬风格启发：巴菲特、芒格、林奇、费雪、德鲁肯米勒 等
+- 多智能体协作与共识（不同策略视角相互补充）
+
+## 投资组合管理 (Portfolio Management)
+- 登录后可创建/管理投资组合，记录仓位与现金
+- 根据市场与分析结果给出仓位调整建议（增减仓/再平衡提示）
+
 ## 架构 (Architecture)
 - 前端：Next.js + Tailwind + shadcn/ui
 - 后端服务：Supabase（认证/数据库）、Stripe（订阅）、OpenAI（分析）
@@ -52,6 +67,21 @@ Documentation-only repository for Legend AI: features, architecture, and live de
 - Portfolio management and risk assessment framework
 - Tiered experience: free vs. subscription
 
+## Analysis Types
+### Traditional Analysis
+- Fundamental analysis
+- Technical analysis
+- Sentiment analysis
+- Capital inflow/outflow analysis
+
+### AI‑Agent Analysis
+- Inspired by legendary investors: Buffett, Munger, Lynch, Fisher, Druckenmiller, etc.
+- Multi-agent collaboration and consensus across strategies
+
+## Portfolio Management
+- After login, create/manage your portfolio and track positions/cash
+- Receive position sizing and rebalancing suggestions based on analysis
+
 ## Architecture
 - Frontend: Next.js + Tailwind + shadcn/ui
 - Backend services: Supabase (Auth/DB), Stripe (subscription), OpenAI (analysis)
@@ -78,4 +108,3 @@ See `LICENSE`. All rights reserved.
 - 访问在线演示 / Try the live demo: https://www.legendai.app
 - 提交建议或问题 / Share feedback: https://github.com/fracicsowang/LegendAI.app-showcase/discussions
 - 商务与合作 / Business contact: franciscowang2008@gmail.com
-
