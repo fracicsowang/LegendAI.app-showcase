@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://www.legendai.app) [![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](./docs/index.md) [![License](https://img.shields.io/badge/license-Proprietary-red)](./LICENSE) [![Discussions](https://img.shields.io/badge/feedback-Discussions-purple)](https://github.com/fracicsowang/LegendAI.app-showcase/discussions)
+
 # Legend AI — 展示仓库 | Showcase Repository
 
 [中文在前 | English below]
@@ -69,3 +71,11 @@ Public, non-binding documentation only. Minimal OpenAPI spec at `docs/openapi.ya
 
 ## License
 See `LICENSE`. All rights reserved.
+
+---
+
+## 行动(CTA) | Call to Action
+- 访问在线演示 / Try the live demo: https://www.legendai.app
+- 提交建议或问题 / Share feedback: https://github.com/fracicsowang/LegendAI.app-showcase/discussions
+- 商务与合作 / Business contact: franciscowang2008@gmail.com
+
