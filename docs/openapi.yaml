@@ -1,0 +1,67 @@
+openapi: 3.0.3
+info:
+  title: Legend AI Public API (Showcase)
+  version: 0.1.0
+  description: |
+    Minimal, non-binding API description for public documentation.
+    Real implementation is private and subject to change.
+servers:
+  - url: https://www.legendai.app
+paths:
+  /api/stocks/quick-analysis:
+    get:
+      summary: Quick stock analysis (demo)
+      parameters:
+        - name: symbol
+          in: query
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  symbol:
+                    type: string
+                  summary:
+                    type: string
+        '400':
+          description: Bad Request
+        '500':
+          description: Server Error
+  /api/stocks/{symbol}:
+    get:
+      summary: Get stock baseline data
+      parameters:
+        - name: symbol
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  symbol:
+                    type: string
+                  price:
+                    type: number
+                  change:
+                    type: number
+        '404':
+          description: Not Found
+components:
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
