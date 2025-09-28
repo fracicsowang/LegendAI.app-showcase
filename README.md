@@ -3,7 +3,7 @@
 This repository showcases Legend AI features, architecture, and live demo without publishing the core source code.
 
 - Live site: https://www.legendai.app
-- Contact: opensource@legendai.app
+- Contact: franciscowang2008@gmail.com
 
 ## Features
 - Multi-agent stock analysis inspired by legendary investors
@@ -28,6 +28,9 @@ Public documentation only. Real implementation is private. Minimal OpenAPI spec 
 ## Roadmap (Public)
 - Public writeups and case studies
 - Educational materials about multi-agent investing workflows
+
+## Acknowledgments
+- Thanks to AI Hedge Fund creator virattt, whose visuals inspired parts of this showcase.
 
 ## License
 See LICENSE. All rights reserved.
