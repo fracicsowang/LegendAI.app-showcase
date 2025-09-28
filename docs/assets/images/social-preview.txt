@@ -1,0 +1,2 @@
+Use a 1200x630 (or 1280x640) image for GitHub Social preview.
+Suggested content: Legend AI logo + "Multi‑Agent Stock Analysis" + legendai.app
